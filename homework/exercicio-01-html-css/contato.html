@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <a href="https://www.dbccompany.com.br/" target="_blank">
+            <img class="logo" src="Img/DBC-LOGO-Branco.png" alt="">
+        </a>    
+
+          <div>
+           <ul class="flex">
+               <li><a class="title" href="./home.html">Home</a></li>
+               <li><a class="title" href="./sobre.html">Sobre</a></li>
+               <li><a class="title" href="#">Contato</a></li>
+           </ul>
+          </div>
+
+    </header>
+
+    <main>
+        <form id="contato">
+            <label for="nome">Digite seu nome completo: </label>
+            <input type="text" name="nome" id="" placeholder="Nome completo" required>
+
+            <label for="email">Digite seu e-mail: </label>
+            <input type="email" name="email" id="" placeholder="E-mail" required>
+
+            <label for="duvida">Qual o motivo do contato? </label>
+            <select name="duvida" id="">
+                <option value="oculto" selected hidden disabled>Selecione o motivo do contato</option>
+                <option value="duvida">Dúvida</option>
+                <option value="interesse">Interesse</option>
+                <option value="agradecimento">Agradecimento</option>
+                <option value="outros">Outros...</option>
+            </select>
+        
+            <label for="mensagem">Digite sua mensagem:</label>
+            <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+
+            <input class="button" type="submit" value="Enviar">
+        </form>
+
+    </main>
+
+    <footer id="footer-contato">
+
+        <div id="footer">
+
+            <div>
+                <img class="logo" src="img/DBC-LOGO-Branco.png" alt="">
+                <address>Tv. São José, 455 - Navegantes, Porto Alegre - RS, 90240-200</address>
+            </div>
+    
+           
+            <ul class="flex">
+                <li><a class="title" href="./home.html">Home</a></li>
+                <li><a class="title" href="./sobre.html">Sobre</a></li>
+                <li><a class="title" href="#">Contato</a></li>
+            </ul>
+            
+        </div>
+    </footer>
+    
+</body>
+</html>
