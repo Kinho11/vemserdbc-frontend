@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #DC6604;
+
+}
+
+
+li{
+    text-transform: uppercase;
+}
+
+/*-------------- HEADER ---------------*/
+
+header .container{
+    max-width: 1000px;
+    background-color: #FDBD06;
+    margin: auto;
+    padding: 1rem 3rem;
+    text-align: center;
+}
+
+
+
+header .container ul li {
+    display: inline;
+    padding-left: 2.5rem;
+    color: white;
+}
+
+header .container ul a {
+    border-right: 1px solid #b88909;
+    padding: 1rem;
+}
+
+
+header .container ul li:hover{
+    color: black;
+    cursor: pointer;
+}
+
+/*-------------- LOGO ----------------*/
+
+.logo {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.logo h1{
+    color: #FDBD06;
+    font-size: 6rem;
+}
+
+.logo h1 span{
+    color: #2F3030;
+}
+
+.logo p {
+    font-size: 1.4rem;
+    color: #2F3030;
+    margin-bottom: 3rem;
+}
+
+
+/*-------------- MAIN ----------------*/
+
+.inline {
+    max-width: 1000px;
+    margin: auto;
+}
+
+main{
+    display: inline-block;
+    max-width: 600px;
+    background-color: white;
+    padding: 2rem;
+}
+
+main h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+main p{
+    margin-bottom: 1.5rem;
+}
+
+main button{
+    border: none;
+    background-color: #DC6604;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+
+/*-------------- MAIN ----------------*/
+
+aside{
+    max-width: 400px;
+    background-color: #FDBD06;
+    float: right;
+
+    padding: 2rem;
+    height: 588.3px;
+}
+
+aside h2{
+    color: #2F3030;
+    margin-bottom: 1rem;
+}
+
+aside input{
+    border: none;
+    padding: .5rem;
+    width: 250px;
+    margin-left: .2rem;
+    border-radius: 5px;
+
+    margin-bottom: 2rem;
+}
+
+.categoria{
+    margin-bottom: 3rem;
+}
+
+aside p{
+    margin-bottom: 3rem;
+}
+
+.lista{
+    border-bottom: 2px solid #b88909;
+    margin-bottom: 1rem;    
+    padding-bottom: 2rem;
+}
+
+
