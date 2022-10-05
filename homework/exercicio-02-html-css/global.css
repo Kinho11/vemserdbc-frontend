@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.logo{
+    width: 200px;
+    background-color: red;
+}
+
+.title{
+    font-size: 2rem;
+}
+/*-------------- HEADER -------------*/
+
+header .container{
+    background-color: red;
+    padding: 1rem 3rem;
+}
+
+header .container ul li {
+    display: inline;
+    font-size: 1.5rem;
+    float: right;
+    position: relative;
+    top: -4.5rem;
+}
+
+
+/* ------------- FOOTER----------------- */
+
+
+footer .container{
+    background-color: red;
+    padding: 2rem;
+}
+
+footer ul li a{
+    color: white;
+    display: block;
+}
+
+address{
+    margin-top: 1rem;
+    color: white;
+}

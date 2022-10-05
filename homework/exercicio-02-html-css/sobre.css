@@ -1,0 +1,17 @@
+main{
+    text-align: center;
+}
+
+h1{
+    margin: 1.5rem 0;
+}
+
+main p{
+    padding: 1rem 10rem;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+footer{
+    margin-top: 10rem;
+}

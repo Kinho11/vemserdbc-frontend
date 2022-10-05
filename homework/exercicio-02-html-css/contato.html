@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="contato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="https://www.dbccompany.com.br/" target="_blank">
+                <img class="logo" src="Img/DBC-LOGO-Branco.png" alt="">
+            </a>    
+
+            <ul>
+                <li><a class="title" href="./contato.html">Contato</a></li>
+                <li><a class="title" href="./sobre.html">Sobre</a></li>
+                <li><a class="title" href="./home.html">Home</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <main>
+        <h1>Contato</h1>
+        <form >
+            <div class="contato-container">
+                <label for="nome">Digite seu nome completo: </label>
+                <input type="text" name="nome" id="" placeholder="Nome completo" required>
+    
+                <label for="email">Digite seu e-mail: </label>
+                <input type="email" name="email" id="" placeholder="E-mail" required>
+    
+                <label for="duvida">Qual o motivo do contato? </label>
+                <select name="duvida" id="">
+                    <option value="oculto" selected hidden disabled>Selecione o motivo do contato</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="interesse">Interesse</option>
+                    <option value="agradecimento">Agradecimento</option>
+                    <option value="outros">Outros...</option>
+                </select>
+            
+                <label for="mensagem">Digite sua mensagem:</label>
+                <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                    <br> <br>
+                <input class="button" type="submit" value="Enviar">
+            </div>
+            </form>
+        
+    </main>
+
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+    
+            <address>Rua poetisa cora coralina 101</address>
+        </div>
+       </footer>
+    
+</body>
+</html>
