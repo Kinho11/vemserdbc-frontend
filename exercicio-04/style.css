@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    width: 100vw;
+    height: 100vh   ;
+    align-items: center;
+}
+.container{
+    display: grid;
+    width: 400px;
+    height: 400px;
+    gap: 10px;
+    margin: auto;
+    background-color: blueviolet;
+    padding: 2rem;
+
+    grid-template-areas: "figurinha-01 figurinha-01 figurinha-01 figurinha-02 figurinha-02" "figurinha-03 figurinha-03 figurinha-04 figurinha-04 figurinha-04" "figurinha-03 figurinha-03 figurinha-05 figurinha-05 figurinha-05";
+}
+
+.figurinha-01{
+    grid-area: figurinha-01;
+    background-color: red;
+}
+
+.figurinha-02{
+    grid-area: figurinha-02;
+    background-color: yellow;
+}
+.figurinha-03 {
+    grid-area: figurinha-03;
+    background-color: red;
+}
+
+.figurinha-04{
+    grid-area: figurinha-04;
+    background-color: blue;
+}
+
+.figurinha-05 {
+    grid-area: figurinha-05;
+    background-color: blue;
+}
