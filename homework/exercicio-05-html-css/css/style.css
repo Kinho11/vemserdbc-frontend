@@ -17,9 +17,23 @@
     padding: 22px 0;
 
     background-color: #EB7D4B;
+    color: white;
 }
+
 
 a:hover{
     background-color: #643A79;
     cursor: pointer;
 }
+
+i{
+    background-color: #BDD1DF;
+    padding: 8px 13px;
+    border-radius: 100%;
+}
+
+.socials-links{
+    position: relative;
+    top: -2px;    
+}
+
