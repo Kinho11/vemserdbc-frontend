@@ -26,14 +26,52 @@ a:hover{
     cursor: pointer;
 }
 
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 44px;
+    margin-bottom: 46px;
+}
+
 i{
     background-color: #BDD1DF;
-    padding: 8px 13px;
+    padding: 10px 18px;
     border-radius: 100%;
 }
 
 .socials-links{
     position: relative;
     top: -2px;    
+}
+
+
+.container-button{
+    color: #393939;
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.container-button:hover{
+    background-color: white;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button-02{
+    display: flex; 
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    margin-top: 48px;
+
+    width: 293px;
+    padding: 22px 0;
+
+    background-color: #17C2A4;
+    color: white;
 }
 
