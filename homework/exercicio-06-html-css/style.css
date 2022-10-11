@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-color: #111624;
+}
+
+main{
+    background-color:#111624 ;
+}
+
+.container{
+    padding: 15px 20px;
+}
+
+/*------------ SEÇAO 01 ----------*/
+
+.sec-1{
+    background-color:#111624 ;
+
+}
+
+
+.sec-1 h3{
+    font-size: 0.875rem;
+    margin-bottom: 10px;
+    color: #1082C6;
+}
+
+.sec-1 h1{
+    font-size: 2.25rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.sec-1 p {
+    color:#DDE2FF;
+    font-size: 16px;
+}
+
+.sec-1 button{
+    background-color: #27A961;
+    color: white;
+    box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+    padding: 20px 40px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 30px;
+}
+
+.sec-1 .imagem-fundo{
+    width: 100%;
+    position: relative;
+    top: -125px;
+}
+
+
+/*------------ SEÇAO 02 ----------*/
+
+.sec-2{
+    background-color:#111624 ;
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.card{
+    background-color: #171B29;
+    border-radius: 10px;
+    padding: 30px 30px;
+    margin-top: -70px;
+}
+
+.sec-2 .icone-coroa{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color:#22A75D;
+    box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card h1{
+    color: white;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.card span.coroa{
+    color:  #22A75D;
+    text-decoration: underline;
+}
+
+.card h2{
+    color: #DDE2FF;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.flex p{
+    color: #22A75D;
+    text-decoration: underline;   
+}
+
+i{
+    padding-top: 7px;
+}
+
+.sec-2 .icone-estrela{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color:#2278D4;
+    box-shadow: 0px 15px 25px rgba(34, 120, 212, 0.25);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card span.estrela{
+    color: #2278D4;
+    text-decoration: underline;
+}
+
+.azul p{
+   color: #2278D4;
+}
+
+.divisor{
+    margin-top: 58px;
+}
+
+/*------------ SEÇAO 03 ----------*/
+
+.sec-3{
+    background-color:#111624 ;
+
+}
+
+.branco{
+    background-color: white;
+    border-radius: 0 180px 0 0;
+    margin-top: -5px;
+}
+
+.sec-3 h1 {
+    margin-top: 70px;
+    font-size: 2.25rem;
+    margin-bottom: 30px;
+    color:  #0F1320 ;
+}
+
+.sec-3 h3{
+    margin-bottom: 20px;
+    font-size: .875rem;
+    color: #0F1320;
+}
+
+.sec-3 .container p:last-child{
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+
+/*------------ SEÇAO 04 ----------*/
+
+.sec-4{
+    background-color:#111624 ;
+    
+}
+
+.sec-4 img:first-child{
+    margin-bottom: 70px;
+}
+
+.sec-4 h1{
+    color: white;
+    font-size: 2.25rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.sec-4 h3{
+    margin-bottom: 20px;
+    font-size: .875rem;
+    color: #DDE2FF;
+    margin-bottom: 20px;
+}
+
+.sec-4 p {
+    color: #DDE2FF;
+    margin-bottom: 10px;
+}
+
+.sec-4 .estilizado{
+    color: #22A75D;
+    font-size: 1.125rem;
+    margin-bottom: 50px;
+}
+
+/*------------ SEÇAO 05 ----------*/
+
+.sec-5{
+    background-image: url(./img/fundo-colorido.png);
+
+}
+
+.content{
+    padding: 70px 20px;
+    border-radius: 20px;
+}
+
+.sec-5 h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.25rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.sec-5 .content{
+    background-color: white;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.sec-5 img {
+    display: flex;
+    margin: 0 auto;
+}
+
+.sec-5 h2 {
+    font-size: 2.25rem;
+    color:  #191B21;
+    margin-bottom: 5px;
+}
+
+.sec-5 p{
+    font-size: 1rem;
+    color: #191B21;
+}
+
+.sec-5 h3{
+    font-size: 1.25rem;
+    color: #191B21;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.sec-5 .content p:last-child{
+    margin-top: 10px;
+}
+
+/*------------ SEÇAO 06 ----------*/
+
+.sec-6 h1{
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 2.25rem;
+}
+
+.sec-6 .cards{
+    margin-top: 40px;
+    gap: 10px;
+}
+
+
+.sec-6 .card-menor{
+    background-color: #171B29;
+    padding: 50px 30px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.sec-6 .card-menor p{
+    color: white;
+    opacity: 0.3;
+    margin-bottom: 20px;
+
+}
+
+.sec-6 .card-menor h2{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0F1320;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    padding: 20px;
+    position: absolute;
+
+    right: 50%;
+    transform: translateX(50%);
+    bottom: -35px;
+    
+    z-index: 100;
+}
+
+.logo{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 72px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-top: 49px;
+    justify-content: center;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid 
+    #ffffff4d;
+    border-radius: 100%;
+}
+
+.token{
+    text-align: center;
+    margin-top: 32px;
+    color: white;
+    font-size: 14px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 8px;
+    color: white;
+    opacity: 0.3;
+}
