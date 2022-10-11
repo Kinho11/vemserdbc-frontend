@@ -154,6 +154,7 @@ i{
 
 .divisor{
     margin-top: 58px;
+    width: 100%;
 }
 
 /*------------ SEÇAO 03 ----------*/
@@ -322,8 +323,8 @@ i{
     padding: 20px;
     position: absolute;
 
-    right: 50%;
-    transform: translateX(50%);
+    right: 50%; 
+     transform: translateX(50%); 
     bottom: -35px;
     
     z-index: 100;
