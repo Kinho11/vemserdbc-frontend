@@ -1,0 +1,155 @@
+/*!***********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./style/style.scss ***!
+  \***********************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./style/style.scss (1) ***!
+  \***************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #EFF3F8;
+}
+
+header {
+  background-image: url(2113e8d2c706ca4f6d47), linear-gradient(to bottom right, #295ba7, #78b454);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  color: white;
+  padding: 0px 15px;
+}
+header .header-1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .header-1 img {
+  width: 105px;
+  height: 36px;
+}
+header .header-1 .header-flex {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  font-size: 1.25rem;
+  gap: 10px;
+  font-weight: bold;
+}
+header .header-1 .pesquisar {
+  position: relative;
+}
+header .header-1 .pesquisar input {
+  width: 400px;
+  background-color: rgba(53, 107, 101, 0.4705882353);
+  color: white;
+  border-radius: 5px;
+  padding: 10px 8px;
+  font-size: 0.875rem;
+  border: none;
+}
+header .header-1 .pesquisar input::placeholder {
+  color: white;
+}
+header .header-1 .pesquisar i {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+header .header-2 {
+  display: flex;
+  gap: 25px;
+  margin-right: 10px;
+  align-items: center;
+}
+header .header-2 i {
+  font-size: 25px;
+}
+header .header-2 .icon-user {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+header .header-2 .icon-user .fa-circle-user {
+  font-size: 35px;
+}
+header .header-2 .icon-user .fa-chevron-down {
+  font-size: 15px;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+main section {
+  background-color: #F8F9FA !important;
+  width: 60%;
+  border-radius: 5px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+main section .titulo {
+  border-bottom: 1px solid rgba(217, 217, 217, 0.7960784314);
+  width: 100%;
+  left: 0;
+}
+main section .titulo h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+main section .card {
+  display: flex;
+  width: 680px;
+  height: 230px;
+  margin: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(212, 205, 205);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  gap: 15px;
+  background-color: white;
+}
+main section .card img {
+  width: 230px;
+  border-radius: 10px 0 0 10px;
+}
+main section .card h2 {
+  margin-top: 10px;
+}
+main section .card p {
+  text-align: left;
+  padding-right: 5px;
+  margin: 10px 0;
+  line-height: 22px;
+}
+main section .card .atencao {
+  color: black;
+  font-weight: bolder;
+}
+main section .card .footer-card {
+  display: flex;
+  align-items: center;
+}
+main section .card .footer-card .data {
+  font-size: 13px;
+  margin-right: 220px;
+}
+main section .card .footer-card span {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  gap: 5px;
+  margin-right: 10px;
+}
+main section .card .footer-card span .fa-heart {
+  color: red;
+  font-size: 16px;
+}
