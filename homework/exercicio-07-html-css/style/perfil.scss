@@ -1,0 +1,383 @@
+.main{
+    position: relative;
+
+.main-perfil{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: white;
+    height: 100%;
+    margin-top: 100px;
+    
+    .main-perfil-header{
+        background-image: url("/img/background-dbc.png"), linear-gradient(5deg, #3b73a3 30%, #7a9547 90%);
+        display: flex;
+        padding: 10px 60px;
+    
+        .icone-perfil-user{
+            font-size: 130px;
+            background-color: white;
+            border-radius: 100%;
+            border: 3px solid white;
+        }
+    
+        .perfil-h3{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 5px;
+            font-size: 14px;
+            color: white;
+            margin-left: 20px;
+        }
+    }
+
+    .main-perfil-info{
+        display: flex;
+        position: relative;
+        
+        justify-content: space-between;
+
+        .perfil-flex{
+            display: flex;
+            padding: 15px;
+        }
+            
+        h2{
+            font-size: 17px;
+            margin-bottom: 10px;
+        }
+
+        select{
+            margin-top: 10px;
+            margin-left: 20px;
+            outline: 0;
+            padding-bottom: 3px;
+            font-size: 14px;
+            width: 200px;
+            color:rgb(165, 161, 161);
+            border: none;
+            border-bottom: 1px solid gray;
+
+            option{
+                color: black;
+            }
+
+        }
+
+        .ativo{
+            position: absolute;
+            display: flex;
+            align-items: center;
+            right: 30px;
+            bottom: 0;
+            gap: 10px;
+
+            i{
+                color: #9edfa9;
+                font-size: 30px;
+            }
+            
+        }
+    }
+
+    .inputs{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        .perfil-input{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            label{
+                font-size: 12px;
+                color: gray;
+                margin-top: 3px;
+            }
+
+            .input{
+                width: 330px;
+                padding-bottom: 5px;
+                border: none;
+                border-bottom: 1px solid gray;
+                outline: 0;
+
+                &::placeholder{
+                    color: black;
+                }
+            }
+        }
+
+        .ramal{
+            width: 200px;
+            border: none;
+            border-bottom: 1px solid gray;
+            margin-top: 32px;
+            margin-right: 20px;
+            outline: none;
+        }
+    }
+
+
+    .checkboxs{
+        display: flex;
+        gap: 110px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+
+        .checkbox{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .flex-check{
+                display: flex;
+                color: gray;
+                gap: 10px;
+
+                input{
+                    width: 15px;
+                    outline: none   ;
+                }
+
+            
+            }
+
+            .flex-check-filho{
+                display: flex;
+                color: black;
+                gap: 10px;
+
+                input{
+                    width: 15px;
+                    outline: none;
+                }
+
+            }
+        }
+    }
+
+}
+
+
+.main-endereco{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: white;
+    height: 100%;
+    margin-top: 20px;
+    padding: 20px 20px;
+
+    h1{
+        color: #5F7191;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .separacao{
+        margin-top: 25px;
+    }
+
+    .perfil-endereco{
+        display: flex;
+        gap: 10px;
+        
+
+        .flex-endereco{
+            display: flex;
+            flex-direction: column;
+
+            select{
+                border: none;
+                border-bottom: 1px solid gray;
+                padding-bottom: 5px;
+                width: 200px;
+                outline: 0;
+            }
+
+            label{
+                color: gray;
+                font-size: 12px;
+                margin-bottom: 5px;
+            }
+            
+            input{
+                border: none;
+                border-bottom: 1px solid gray;
+                padding-bottom: 5px;
+                outline: 0;
+
+                &::placeholder{
+                    color: black;
+                }
+            }
+
+            .rua{
+                width: 600px;
+            }
+
+            .bairro{
+                width: 350px;
+            }
+
+            .cidade{
+                width: 250px;
+            }
+        }
+    }
+
+}
+
+
+.perfil-feedbacks{
+    max-width: 1600px;
+    margin: 0 auto;  
+    margin-top: 20px;
+    margin-bottom: 100px;
+    .perfil-feedback{
+        display: flex;
+        gap: 20px;
+
+        .feedback{
+            background-color: white;
+            width: 65%;
+            padding: 20px 20px;
+            height: 100%;
+
+            h1{
+                color: #5F7191;
+        
+            }
+
+            .mensagem{
+                display: flex;
+                margin-top: 20px;
+
+                .recebidos{
+                    width: 50%;
+                    text-align: center;
+                    border-bottom: 2px solid #0277BD;
+                    padding-bottom: 3px;
+                    cursor: pointer;
+                }
+                .concedidos{
+                    width: 50%;
+                    text-align: center;
+                    border-bottom: 1px solid gray;
+                    padding-bottom: 3px;
+                    cursor: pointer;
+
+                }
+            }
+
+            h3{
+                display: flex;
+                height: 30vh;
+                align-items: center;
+                justify-content: center ;
+
+                color: gray;
+                font-size: 16px;
+            }
+        }
+
+
+        .conhecimentos{
+            background-color: white;
+            width: 35%;
+            padding: 20px 20px;
+            height: 100%;
+
+            .flex-conhecimentos{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                span{
+                    display: flex;
+                    align-items: center;
+                    color: #5e7aaa;
+                    gap: 10px;
+                }
+
+                button{
+                    background-color: #51BD88;
+                    width: 200px;
+                    border: none;
+                    border-radius: 20px;
+                    padding: 5px 0px;
+                    color: white;
+                    font-size: 16px;
+                    font-weight: bolder;
+                }
+
+                
+            }
+
+            h3{
+                display: flex;
+                height: 10vh;
+                align-items: center;
+                justify-content: center ;
+
+                color: gray;
+                font-size: 16px;
+            }
+        }
+    }
+
+    
+}
+
+    .perfil-icones{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        right: 30px;
+        bottom: 50px;
+        gap: 10px;
+
+        .icon-verde{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+            border-radius: 100%;
+            width: 60px;
+            height: 60px;
+            background-color: #51BD88;
+
+            box-shadow: 0px 2px 6px rgb(0 0 0 / 10%); 
+
+        }
+
+
+        .fa-floppy-disk{
+            font-size: 25px;
+            color: white;
+    
+        }
+    
+        .fa-circle-xmark{
+            font-size: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+            border-radius: 100%;
+            width: 60px;
+            height: 60px;
+            color: #E14142;
+            box-shadow: 0px 2px 6px rgb(0 0 0 / 10%); 
+
+        }
+    }
+
+    
+}
+
+
+
+
+

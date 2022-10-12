@@ -12,6 +12,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+a {
+  color: white;
+}
+
 body {
   background-color: #EFF3F8;
 }
@@ -27,6 +31,7 @@ header {
   color: white;
   padding: 0px 15px;
   position: fixed;
+  z-index: 200;
 }
 header .header-1 {
   display: flex;
@@ -257,4 +262,283 @@ main .asides .aside-2 .cards-foto-usuario span {
   display: flex;
   gap: 5px;
   margin-bottom: 10px;
+}
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./style/perfil.scss ***!
+  \************************************************************************************************************/
+.main {
+  position: relative;
+}
+.main .main-perfil {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: white;
+  height: 100%;
+  margin-top: 100px;
+}
+.main .main-perfil .main-perfil-header {
+  background-image: url(2113e8d2c706ca4f6d47.png), linear-gradient(5deg, #3b73a3 30%, #7a9547 90%);
+  display: flex;
+  padding: 10px 60px;
+}
+.main .main-perfil .main-perfil-header .icone-perfil-user {
+  font-size: 130px;
+  background-color: white;
+  border-radius: 100%;
+  border: 3px solid white;
+}
+.main .main-perfil .main-perfil-header .perfil-h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  font-size: 14px;
+  color: white;
+  margin-left: 20px;
+}
+.main .main-perfil .main-perfil-info {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+.main .main-perfil .main-perfil-info .perfil-flex {
+  display: flex;
+  padding: 15px;
+}
+.main .main-perfil .main-perfil-info h2 {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.main .main-perfil .main-perfil-info select {
+  margin-top: 10px;
+  margin-left: 20px;
+  outline: 0;
+  padding-bottom: 3px;
+  font-size: 14px;
+  width: 200px;
+  color: rgb(165, 161, 161);
+  border: none;
+  border-bottom: 1px solid gray;
+}
+.main .main-perfil .main-perfil-info select option {
+  color: black;
+}
+.main .main-perfil .main-perfil-info .ativo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 30px;
+  bottom: 0;
+  gap: 10px;
+}
+.main .main-perfil .main-perfil-info .ativo i {
+  color: #9edfa9;
+  font-size: 30px;
+}
+.main .main-perfil .inputs {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.main .main-perfil .inputs .perfil-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main .main-perfil .inputs .perfil-input label {
+  font-size: 12px;
+  color: gray;
+  margin-top: 3px;
+}
+.main .main-perfil .inputs .perfil-input .input {
+  width: 330px;
+  padding-bottom: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: 0;
+}
+.main .main-perfil .inputs .perfil-input .input::placeholder {
+  color: black;
+}
+.main .main-perfil .inputs .ramal {
+  width: 200px;
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-top: 32px;
+  margin-right: 20px;
+  outline: none;
+}
+.main .main-perfil .checkboxs {
+  display: flex;
+  gap: 110px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.main .main-perfil .checkboxs .checkbox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main .main-perfil .checkboxs .checkbox .flex-check {
+  display: flex;
+  color: gray;
+  gap: 10px;
+}
+.main .main-perfil .checkboxs .checkbox .flex-check input {
+  width: 15px;
+  outline: none;
+}
+.main .main-perfil .checkboxs .checkbox .flex-check-filho {
+  display: flex;
+  color: black;
+  gap: 10px;
+}
+.main .main-perfil .checkboxs .checkbox .flex-check-filho input {
+  width: 15px;
+  outline: none;
+}
+.main .main-endereco {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: white;
+  height: 100%;
+  margin-top: 20px;
+  padding: 20px 20px;
+}
+.main .main-endereco h1 {
+  color: #5F7191;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.main .main-endereco .separacao {
+  margin-top: 25px;
+}
+.main .main-endereco .perfil-endereco {
+  display: flex;
+  gap: 10px;
+}
+.main .main-endereco .perfil-endereco .flex-endereco {
+  display: flex;
+  flex-direction: column;
+}
+.main .main-endereco .perfil-endereco .flex-endereco select {
+  border: none;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+  width: 200px;
+  outline: 0;
+}
+.main .main-endereco .perfil-endereco .flex-endereco label {
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.main .main-endereco .perfil-endereco .flex-endereco input {
+  border: none;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+  outline: 0;
+}
+.main .main-endereco .perfil-endereco .flex-endereco input::placeholder {
+  color: black;
+}
+.main .main-endereco .perfil-endereco .flex-endereco .rua {
+  width: 600px;
+}
+.main .main-endereco .perfil-endereco .flex-endereco .bairro {
+  width: 350px;
+}
+.main .main-endereco .perfil-endereco .flex-endereco .cidade {
+  width: 250px;
+}
+.main .perfil-feedbacks {
+  max-width: 1600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.main .perfil-feedbacks .perfil-feedback {
+  display: flex;
+  gap: 20px;
+}
+.main .perfil-feedbacks .perfil-feedback .feedback {
+  background-color: white;
+  width: 65%;
+  padding: 20px 20px;
+  height: 100%;
+}
+.main .perfil-feedbacks .perfil-feedback .feedback h1 {
+  color: #5F7191;
+}
+.main .perfil-feedbacks .perfil-feedback .feedback .mensagem {
+  display: flex;
+  margin-top: 20px;
+}
+.main .perfil-feedbacks .perfil-feedback .feedback .mensagem .recebidos {
+  width: 50%;
+  text-align: center;
+  border-bottom: 2px solid #0277BD;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+.main .perfil-feedbacks .perfil-feedback .feedback .mensagem .concedidos {
+  width: 50%;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+.main .perfil-feedbacks .perfil-feedback .feedback h3 {
+  display: flex;
+  height: 30vh;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+  font-size: 16px;
+}
+.main .perfil-feedbacks .perfil-feedback .conhecimentos {
+  background-color: white;
+  width: 35%;
+  padding: 20px 20px;
+  height: 100%;
+}
+.main .perfil-feedbacks .perfil-feedback .conhecimentos .flex-conhecimentos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .perfil-feedbacks .perfil-feedback .conhecimentos .flex-conhecimentos span {
+  display: flex;
+  align-items: center;
+  color: #5e7aaa;
+  gap: 10px;
+}
+.main .perfil-feedbacks .perfil-feedback .conhecimentos .flex-conhecimentos button {
+  background-color: #51BD88;
+  width: 200px;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 0px;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.main .perfil-feedbacks .perfil-feedback .conhecimentos h3 {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+  font-size: 16px;
+}
+.main .perfil-icones {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.main .perfil-icones .fa-floppy-disk {
+  font-size: 50px;
+}
+.main .perfil-icones .fa-circle-xmark {
+  font-size: 50px;
 }

@@ -16,7 +16,17 @@
   \******************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style/style.scss */ \"./style/style.scss\");\n\n\n//# sourceURL=webpack://exercicio-07-html-css/./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style/style.scss */ \"./style/style.scss\");\n/* harmony import */ var _style_perfil_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style/perfil.scss */ \"./style/perfil.scss\");\n\r\n\n\n//# sourceURL=webpack://exercicio-07-html-css/./index.js?");
+
+/***/ }),
+
+/***/ "./style/perfil.scss":
+/*!***************************!*\
+  !*** ./style/perfil.scss ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://exercicio-07-html-css/./style/perfil.scss?");
 
 /***/ }),
 
