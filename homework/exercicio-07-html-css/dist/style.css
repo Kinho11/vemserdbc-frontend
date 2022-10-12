@@ -534,11 +534,35 @@ main .asides .aside-2 .cards-foto-usuario span {
 .main .perfil-icones {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+  gap: 10px;
+}
+.main .perfil-icones .icon-verde {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  background-color: #51BD88;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
 }
 .main .perfil-icones .fa-floppy-disk {
-  font-size: 50px;
+  font-size: 25px;
+  color: white;
 }
 .main .perfil-icones .fa-circle-xmark {
-  font-size: 50px;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  color: #E14142;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
 }
