@@ -17,13 +17,16 @@ body {
 }
 
 header {
-  background-image: url(2113e8d2c706ca4f6d47), linear-gradient(to bottom right, #295ba7, #78b454);
+  background-image: url(2113e8d2c706ca4f6d47.png), linear-gradient(to bottom right, #295ba7, #78b454);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  top: 0;
   height: 80px;
   color: white;
   padding: 0px 15px;
+  position: fixed;
 }
 header .header-1 {
   display: flex;
@@ -84,9 +87,11 @@ header .header-2 .icon-user .fa-chevron-down {
 }
 
 main {
+  display: flex;
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 10px;
+  padding-top: 85px;
 }
 main section {
   background-color: #F8F9FA !important;
@@ -94,12 +99,12 @@ main section {
   border-radius: 5px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
 }
-main section .titulo {
+main section .border {
   border-bottom: 1px solid rgba(217, 217, 217, 0.7960784314);
   width: 100%;
   left: 0;
 }
-main section .titulo h3 {
+main section .border h3 {
   font-size: 12px;
   text-transform: uppercase;
   margin-bottom: 16px;
@@ -111,7 +116,7 @@ main section .card {
   width: 680px;
   height: 230px;
   margin: 15px 20px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px solid rgb(212, 205, 205);
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
   gap: 15px;
@@ -119,20 +124,24 @@ main section .card {
 }
 main section .card img {
   width: 230px;
-  border-radius: 10px 0 0 10px;
+  border-radius: 5px 0 0 5px;
 }
 main section .card h2 {
   margin-top: 10px;
 }
 main section .card p {
   text-align: left;
-  padding-right: 5px;
+  font-size: 14px;
+  padding-right: px;
   margin: 10px 0;
   line-height: 22px;
 }
 main section .card .atencao {
   color: black;
   font-weight: bolder;
+}
+main section .card .texto-card {
+  padding-right: 20px;
 }
 main section .card .footer-card {
   display: flex;
@@ -152,4 +161,100 @@ main section .card .footer-card span {
 main section .card .footer-card span .fa-heart {
   color: red;
   font-size: 16px;
+}
+main .asides {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 40%;
+  gap: 20px;
+}
+main .asides .aside-1 {
+  background-color: #F8F9FA;
+}
+main .asides .aside-1 .border {
+  border-bottom: 1px solid rgba(217, 217, 217, 0.7960784314);
+  width: 100%;
+  left: 0;
+}
+main .asides .aside-1 .border h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+main .asides .aside-1 .icones-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+main .asides .aside-1 .icones-cards .icone {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 120px;
+  margin-top: 10px;
+  margin-left: 25px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: #33A76F;
+}
+main .asides .aside-1 .icones-cards .icone .icones {
+  font-size: 35px;
+}
+main .asides .aside-1 .icones-cards .icone p {
+  font-size: 13px;
+  font-weight: bolder;
+}
+main .asides .aside-1 .icones-cards .icone:hover {
+  background: linear-gradient(to right, #2ba962 0%, #2e6a99 98%, #2e6a99 100%);
+  color: white;
+  cursor: pointer;
+}
+main .asides .aside-1 .icones-cards .ultimo {
+  margin-bottom: 20px;
+}
+main .asides .aside-2 {
+  background-color: #F8F9FA;
+}
+main .asides .aside-2 .border {
+  border-bottom: 1px solid rgba(217, 217, 217, 0.7960784314);
+  width: 100%;
+  left: 0;
+}
+main .asides .aside-2 .border h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+main .asides .aside-2 .cards-foto-usuario {
+  display: flex;
+  margin-top: 15px;
+  gap: 20px;
+  align-items: center;
+  border-bottom: 1px solid rgba(217, 217, 217, 0.7960784314);
+  width: 100%;
+  left: 0;
+}
+main .asides .aside-2 .cards-foto-usuario .foto-usuario {
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border-radius: 100%;
+}
+main .asides .aside-2 .cards-foto-usuario h4 {
+  margin-bottom: 10px;
+}
+main .asides .aside-2 .cards-foto-usuario span {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
 }
