@@ -1,0 +1,17 @@
+@import url('../style.css');
+
+.botao-azul{
+    padding: 10px 15px;
+    width: 150px;
+    border: none;
+    font-size: 1rem;
+    color: var(--branco);
+    background-color: var(--azul-300);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.botao-azul:hover{
+    background-color: var(--azul-400);
+    cursor: pointer;
+}

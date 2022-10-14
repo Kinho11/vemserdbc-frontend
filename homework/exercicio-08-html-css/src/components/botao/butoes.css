@@ -1,0 +1,29 @@
+@import url('./style.css');
+
+
+.botoes button:first-child{
+    width: 80px;
+    border: none;
+    height: 60px;
+    font-size: 1.2rem;
+    background-color: var(--branco);
+    color: var(--cinza-600);
+    cursor: pointer;
+}
+
+
+.botoes button:last-child:hover{
+    background-color: var(--azul-400);
+}
+
+.botoes button:last-child{
+    border: none;
+    background-color: var(--azul-300);
+    height: 60px;
+    width: 200px;
+    padding: 0 10px;
+    color: var(--branco);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+

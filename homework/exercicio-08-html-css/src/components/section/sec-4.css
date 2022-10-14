@@ -1,0 +1,63 @@
+@import url('../style.css');
+
+.sec-4{
+    padding-top: 50px;
+}
+
+.sec-4 .container-menor{
+    width: 45%;
+}
+
+.sec-4 .container-menor h1{
+    color: var(--cinza-900);
+    font-size: 2.25rem;
+}
+
+.sec-4 .container-menor p{
+    color: var(--cinza-800);
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+
+.sec-4 .sec-4-flex {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+
+}
+
+
+.sec-4 .sec-4-flex img{
+    width: 400px;
+}
+
+.sec-4 .sec-4-flex .column{
+    width: 60%;
+    padding: 0 40px;
+}
+
+.sec-4 .sec-4-flex .column h3{
+    color: var(--cinza-800);
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.sec-4 .sec-4-flex .column h1{
+    font-size: 2.25rem;
+    color: var(--cinza-900);
+    margin-bottom: 20px;
+}
+
+.sec-4 .sec-4-flex .column p{
+    font-size: 1.25rem;
+    color: var(--cinza-800);
+    margin-bottom: 40px;
+    font: 600;
+}
+
+.sec-4 .sec-4-flex .column h2{
+    color: var(--cinza-800);
+    font-weight: bolder;
+    cursor: pointer;
+}

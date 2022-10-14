@@ -1,0 +1,60 @@
+@import url('../style.css');
+
+.sec-6{
+    text-align: center;
+}
+
+.sec-6 .degrade{
+    background: linear-gradient(rgb(64, 50, 148), rgb(76, 154, 255)) no-repeat;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: -60px;
+}
+
+.sec-6 .degrade h1{
+    font-size: 1.5rem;
+    color: var(--branco);
+    margin-bottom: 50px;
+}
+
+.sec-6 .degrade input{
+    padding: 15px;
+    width: 360px;
+    border: none;
+    border: 1px solid var(--cinza-040);
+    border-radius: 5px;
+}
+
+.sec-6 .degrade button{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.sec-6 h3{
+    font-size: 1.25rem;
+    color: var(--cinza-600);
+}
+
+.sec-6 .sec-6-flex{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sec-6 .sec-6-flex div:last-child{
+    display: flex;
+    gap: 25px;
+    position: absolute;   
+    right: 0;   
+}
+
+.sec-6 .sec-6-flex .icones-store{
+    width: 160px;
+}

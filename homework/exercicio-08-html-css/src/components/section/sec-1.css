@@ -1,0 +1,75 @@
+@import url('../style.css');
+
+
+.sec-1{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    border-bottom: 1px solid var(--cinza-040);
+
+}
+
+.parte-1{
+    width: 60%;
+}
+
+.sec-1 .parte-1 h1{
+    font-size: 3rem;
+    color: var(--cinza-900);
+    margin-bottom: 10px;
+}
+
+.sec-1 .parte-1 p{
+    color: var(--cinza-600);
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+}
+
+.sec-1 .parte-1 .email{
+    display: flex;
+    gap: 15px;
+}
+
+.sec-1 .parte-1 input{
+    padding: 15px;
+    width: 360px;
+    border: none;
+    border: 1px solid var(--cinza-040);
+    border-radius: 5px;
+
+    outline: none;
+}
+
+.sec-1 .parte-1 .video {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    width: 130px;
+    cursor: pointer;
+}
+
+.sec-1 .parte-1 .video:hover{
+    gap: 12px;
+    transition: .5s;
+}
+
+.sec-1 .parte-1 .video a{
+    color: var(--azul-400);
+}
+
+.sec-1 .parte-1 .video svg{
+    color: var(--azul-400);
+}
+
+
+.sec-1 .parte-2{
+    width: 40%;
+    padding-left: 100px;
+}
+
+
+.sec-1 .parte-2 .foto-1{
+    width: 350px;
+}

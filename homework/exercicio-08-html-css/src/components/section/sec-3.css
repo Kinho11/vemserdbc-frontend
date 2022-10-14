@@ -1,0 +1,41 @@
+@import url('../style.css');
+
+.sec-3{
+    padding-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-3 h1 {
+    color: var(--cinza-900);
+    font-size: 2.25rem;
+    margin-bottom: 10px;
+}
+
+.sec-3 p{
+    padding: 0 50px;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    color: var(--cinza-800);
+    font-weight: 600;
+}
+
+.sec-3 img {
+    margin-top: 40px;
+    width: 900px;
+}
+
+.sec-3 .icones-site{
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sec-3 .icones-site .icones {
+    width: 160px;
+}

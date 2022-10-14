@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap%27');   
+
+:root{
+    --azul-500: #0747A6;
+    --azul-400: #0052CC;
+    --azul-300: #0065FF;
+    --azul-200: #2684FF;
+    --azul-100: #4C9AFF;
+
+    --cinza-900: #091E42;
+    --cinza-800: #172B4D;
+    --cinza-700: #253858;
+    --cinza-600: #344563;
+    --cinza-500: #42526E;
+    --cinza-040: #DFE1E6;
+
+    --branco: white;
+
+    --background:#E6FCFF;
+
+    --font-family: 'Nunito Sans', sans-serif;
+}
