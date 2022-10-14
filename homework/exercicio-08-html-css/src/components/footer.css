@@ -2,9 +2,9 @@
 
 footer{
     background-color: #172B4D;
-    height: 250px;
+    height: 280px;
     margin-top: 30px;
-    padding: 0 20px;
+    padding: 0px 20px;
 }
 
 hr{
@@ -23,14 +23,33 @@ hr{
 
 .footer-flex .cards-footer{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 15px;
+    display: flex;
     color: var(--branco);
-    width: 180px;
+    width: 210px;
+    height: 100px;
+    padding: 0 10px;
 }
 
-.footer-flex .cards-footer .logo{
-    width: 100px;
+.footer-flex .cards-footer-foto{
+    display: flex;
+    color: var(--branco);
+    flex-direction: column;
+    width: 180px;
+    gap: 15px;
+    
+}
+
+.footer-flex .cards-footer:hover{
+    background-color: var(--azul-100);
+    cursor: pointer;
+}
+
+.footer-flex .cards-footer-foto .logo{
+    width: 130px;
 }
 
 .footer-flex .cards-footer h4{
